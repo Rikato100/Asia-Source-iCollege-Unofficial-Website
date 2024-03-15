@@ -1,0 +1,184 @@
+* {margin: 0;
+padding: 0;
+background: linear-gradient(rgba(5, 5, 5, 0.5), rgba(1, 1, 1, 0.7)), url('sample.jpg');
+background-position: cover;
+background-attachment: fixed;
+background-size: 100%;
+background-repeat: no-repeat;
+font-family: Bahnschrift SemiBold;
+}
+
+.bar {
+width: 100%;
+margin: auto;
+padding: 20px 0;
+display: flex;
+align-items: center;
+justify-content: space-between;
+background: linear-gradient(rgba(66, 12, 12, 1), rgba(176, 81, 81, 0.5));
+position: sticky;
+z-index: 2;}
+
+#content-container {
+text-align: center;
+border-radius: 10px;
+padding: 20px;
+margin: auto;
+background: linear-gradient(rgba(66, 12, 12, 1),rgba(176, 81, 81, 0.5));
+box-shadow: 0 0 20px rgba(52, 152, 219, 1000);
+max-width: 900px;
+margin-bottom: 50px;
+font-family: 'Bahnschrift SemiBold';
+position: relative;
+line-height: 1.6;
+z-index: 1;
+}
+
+.logo { 
+width: 65px;
+cursor: pointer;
+margin: 0 70px;
+background: transparent;
+filter:drop-shadow(0px 0px 6px
+rgba(255, 213, 2, 5));
+}
+
+.bar ul li a {
+background-color: #420c0c; 
+padding: 10px;
+border-radius: 10px;
+font-family: Bahnschrift SemiBold;
+font-size: 17px;
+background: linear-gradient(rgba(173, 2, 2, 1), rgba(264, 2, 2, 0.5));
+filter:drop-shadow(0px 0px 3px
+rgba(255, 213, 2, 5));}
+
+.bar ul li a:hover {
+transition: 0.3s ease-in-out;
+border-radius: 40% 40% 0% 0%;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+top: 100%;
+background-color: black;
+min-width: 100px;
+box-shadow: rgba(0, 0, 0, 0.2);
+z-index: 1;}
+
+.dropdown:hover 
+.dropdown-content {
+display: block;}
+
+.bar ul li {
+font-family: Bahnschrift SemiBold;
+display: inline-block;
+margin: 30px;
+position: relative;
+}
+
+.bar ul li::after {
+content: "";
+position: absolute;
+background-color: white;
+height: 3px;
+width: 0;
+left: 0;
+bottom: -10px;
+transition: 0.3s;
+}
+
+.bar ul li:hover::after {
+width: 100%;
+transition: 0.3s;
+}
+
+.bar ul li a {
+text-decoration: none; 
+color: Yellow;
+}
+
+.btn { 
+font-family: "carlito";
+font-size: 25px; 
+font-weight: bold;
+background: #023988;
+padding: 25px;
+border-radius: 10px;
+color: white;
+text-decoration: none;
+cursor: pointer;
+transition: 0.5s;
+}
+
+h1 {font-size: 55px;
+margin-bottom: 15px;
+color: #023988>;
+font-family: Bahnschrift SemiBold;
+background: transparent;
+align: center;
+text-shadow: 3px 3px 5px #023988;
+}
+
+p {
+background: transparent;
+font-size: 19px;
+text-shadow: 1px 1px #f5c019;
+}
+
+ul {
+background: transparent;
+list-style: none;
+padding: 0;
+display: flex;
+align-items: center;}
+
+ul li {
+background: transparent;
+margin: 0 15px;
+position: relative;}
+
+.AsicSponsors {
+background: transparent;
+display: flex;
+flex-direction: column;
+width: 129px;
+filter: drop-shadow(2px 2px 0px
+rgba(255, 255, 255, 5));}
+
+img {
+background: transparent;
+}
+
+a {
+background: transparent;
+text-decoration: underline;
+color: #fff;
+font-weight: bold;
+font-size: 1.2em;
+display: block;
+padding: 8px;}
+
+.Pee {
+color: white;
+text-shadow: 3px 3px #023988;}
+
+.Pee2 {
+color: white;
+text-shadow: 3px 3px #023988;
+font-size: 15px;
+display:flex
+flex-direction: row;}
+
+.Tedsa {
+background: transparent;
+display: flex;
+flex-direction: column;
+width: 145px;
+filter: drop-shadow(1px 2px 0px
+rgba(64, 224, 208, 5));}
+
+
+
+
