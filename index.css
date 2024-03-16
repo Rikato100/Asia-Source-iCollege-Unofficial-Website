@@ -1,23 +1,11 @@
 * {margin: 0;
 padding: 0;
 background: linear-gradient(rgba(5, 5, 5, 0.5), rgba(1, 1, 1, 0.10)), url('uni.jpg');
-background-position: center;
 background-size: 100%;
 background-attachment: fixed;
+background-fit: cover;
 background-repeat: no-repeat;
-font-family: Bahnschrift SemiBold;
-}
-
-.bar {
-width: 100%;
-margin: auto;
-padding: 20px 0;
-display: flex;
-align-items: center;
-justify-content: space-between;
-background: linear-gradient(rgba(66, 12, 12, 1), rgba(176, 81, 81, 0.5));
-position: sticky;
-z-index: 2;}
+font-family: Bahnschrift SemiBold;}
 
 #content-container {
 text-align: center;
@@ -31,8 +19,7 @@ margin-bottom: 50px;
 font-family: 'Bahnschrift SemiBold';
 position: relative;
 line-height: 1.6;
-z-index: 1;
-}
+z-index: 1;}
 
 .logo { 
 width: 65px;
@@ -40,11 +27,18 @@ cursor: pointer;
 margin: 0 70px;
 background: transparent;
 filter:drop-shadow(0px 0px 6px
-rgba(255, 213, 2, 5));
-}
+rgba(255, 213, 2, 5));}
+
+.bar {
+padding: 20px 0;
+display: flex;
+align-items: center;
+justify-content: space-between;
+background: linear-gradient(rgba(66, 12, 12, 1), rgba(176, 81, 81, 0.5));
+z-index: 2;}
 
 .bar ul li a {
-background-color: #420c0c; 
+background-color: #FFFFFF; 
 padding: 10px;
 border-radius: 10px;
 font-family: Bahnschrift SemiBold;
@@ -61,12 +55,21 @@ border-radius: 40% 40% 0% 0%;
 .dropdown-content {
 display: none;
 position: absolute;
-top: 150;
+top: 100;
 min-width: 100px;
 box-shadow: rgba(0, 0, 0, 0.2);
 list-style: none;
 padding: 0;
-z-index: 1;}
+z-index: 2;
+background:transparent;
+background-color: #420c0c; 
+padding: 10px;
+border-radius: 10px;
+font-family: Bahnschrift SemiBold;
+font-size: 17px;
+background: linear-gradient(rgba(173, 2, 2, 1), rgba(264, 2, 2, 0.5));
+filter:drop-shadow(0px 0px 3px
+rgba(255, 213, 2, 5));}
 
 nav ul li a {
 text-decoration: underline;
@@ -79,7 +82,8 @@ border-radius: 5px;}
 
 .dropdown:hover 
 .dropdown-content {
-display: block;}
+display: block;
+background-color: black; }
 
 .bar ul li {
 font-family: Bahnschrift SemiBold;
@@ -88,7 +92,7 @@ margin: 30px;
 position: relative;
 }
 
-.bar ul li::after {
+.home ul li::after {
 content: "";
 position: absolute;
 background-color: white;
@@ -96,18 +100,16 @@ height: 3px;
 width: 0;
 left: 0;
 bottom: -10px;
-transition: 0.3s;
-}
+transition: 0.3s;}
 
-.bar ul li:hover::after {
+.home ul li:hover::after {
 width: 100%;
-transition: 0.3s;
-}
+transition: 0.3s;}
 
 .bar ul li a {
 text-decoration: none; 
-color: Yellow;
-}
+color: Yellow;}
+
 
 .btn { 
 font-family: "carlito";
