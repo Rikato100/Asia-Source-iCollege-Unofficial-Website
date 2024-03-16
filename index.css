@@ -48,9 +48,8 @@ filter:drop-shadow(0px 0px 3px
 rgba(255, 213, 2, 5));}
 
 .bar ul li a:hover {
-transition: 0.3s ease-in-out;
-border-radius: 40% 40% 0% 0%;
-}
+transition: 0.3s;
+border-radius: 40% 40% 0% 0%;}
 
 .dropdown-content {
 display: none;
@@ -92,17 +91,17 @@ margin: 30px;
 position: relative;
 }
 
-.home ul li::after {
+.line::after {
 content: "";
 position: absolute;
-background-color: white;
+background-color: White ;
 height: 3px;
 width: 0;
 left: 0;
 bottom: -10px;
 transition: 0.3s;}
 
-.home ul li:hover::after {
+.line:hover::after {
 width: 100%;
 transition: 0.3s;}
 
@@ -130,12 +129,12 @@ color: #023988>;
 font-family: Bahnschrift SemiBold;
 background: transparent;
 align: center;
-text-shadow: 3px 3px 5px #023988;}
+text-shadow: 3px 3px 5px #3498DB;}
 
 p {
 background: transparent;
-font-size: 19px;
-text-shadow: 1px 1px #f5c019;}
+font-size: 22px;
+text-shadow: 1px 1px #3498DB;}
 
 ul {
 background: transparent;
@@ -170,12 +169,13 @@ padding: 8px;}
 
 .Pee {
 color: white;
-text-shadow: 3px 3px #023988;}
+text-shadow: 3px 3px #023988;
+font-family: serif sans;}
 
 .Pee2 {
 color: white;
 text-shadow: 3px 3px #023988;
-font-size: 15px;
+font-size: 16px;
 display:flex
 flex-direction: row;}
 
@@ -186,3 +186,7 @@ flex-direction: column;
 width: 145px;
 filter: drop-shadow(1px 2px 1px
 rgba(64, 224, 208, 5));}
+
+
+
+
