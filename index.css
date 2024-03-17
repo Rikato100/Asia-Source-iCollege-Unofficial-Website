@@ -14,7 +14,7 @@ padding: 20px;
 margin: auto;
 background: linear-gradient(rgba(66, 12, 12, 1),rgba(176, 81, 81, 0.5));
 box-shadow: 0 0 20px rgba(52, 152, 219, 1000);
-max-width: 900px;
+max-width: 1000px;
 margin-bottom: 50px;
 font-family: 'Bahnschrift SemiBold';
 position: relative;
@@ -24,7 +24,7 @@ z-index: 1;}
 .logo { 
 width: 65px;
 cursor: pointer;
-margin: 0 70px;
+margin: 0 30px 0px 70px;
 background: transparent;
 filter:drop-shadow(0px 0px 6px
 rgba(255, 213, 2, 5));}
@@ -54,18 +54,13 @@ border-radius: 40% 40% 0% 0%;}
 .dropdown-content {
 display: none;
 position: absolute;
-top: 100;
 min-width: 100px;
 box-shadow: rgba(0, 0, 0, 0.2);
-list-style: none;
-padding: 0;
 z-index: 2;
-background:transparent;
-background-color: #420c0c; 
+background:transparent; 
 padding: 10px;
 border-radius: 10px;
 font-family: Bahnschrift SemiBold;
-font-size: 17px;
 background: linear-gradient(rgba(173, 2, 2, 1), rgba(264, 2, 2, 0.5));
 filter:drop-shadow(0px 0px 3px
 rgba(255, 213, 2, 5));}
@@ -88,8 +83,7 @@ background-color: black; }
 font-family: Bahnschrift SemiBold;
 display: inline-block;
 margin: 30px;
-position: relative;
-}
+position: relative;}
 
 .line::after {
 content: "";
@@ -112,17 +106,20 @@ color: Yellow;}
 
 .btn { 
 font-family: "carlito";
-font-size: 25px; 
+font-size: 20px; 
 font-weight: bold;
-background: #023988;
+background: #420c0c;
 padding: 25px;
 border-radius: 10px;
 color: white;
 text-decoration: none;
 cursor: pointer;
-transition: 0.5s;
-}
+transition: 0.5s;}
 
+.btn:hover{
+background-color: rgb(248, 170, 1);
+color: #420c0c;}
+  
 h1 {font-size: 55px;
 margin-bottom: 15px;
 color: #023988>;
@@ -165,7 +162,7 @@ color: #fff;
 font-weight: bold;
 font-size: 1.2em;
 display: block;
-padding: 8px;}
+padding: 0px;}
 
 .Pee {
 color: white;
@@ -175,7 +172,7 @@ font-family: serif sans;}
 .Pee2 {
 color: white;
 text-shadow: 3px 3px #023988;
-font-size: 16px;
+font-size: 20px;
 display:flex
 flex-direction: row;}
 
@@ -186,6 +183,16 @@ flex-direction: column;
 width: 145px;
 filter: drop-shadow(1px 2px 1px
 rgba(64, 224, 208, 5));}
+
+p a:link {
+color: White; text-shadow: 3px 3px #023988;}
+
+p a:visited {color: Dark Blue;}
+
+p a:hover {
+color: #023988; text-shadow: 2px 2px White;}
+
+p a:active {color: Red;}
 
 
 
