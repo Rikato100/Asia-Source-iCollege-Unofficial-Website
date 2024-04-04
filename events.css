@@ -1,0 +1,197 @@
+* {
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-family: Bahnschrift SemiBold;}
+
+body {
+background-color:#860405;
+background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('Home Media/uni.jpg');
+background-size: 100%;
+background-attachment: fixed;
+background-fit: cover;
+background-repeat: no-repeat;}
+
+.cover {
+display: none;}
+
+.card-container {
+display: flex;
+justify-content: center;
+flex-wrap:wrap;
+margin-top: 100px;}
+
+.card {
+width: 400px;
+background-color: #f0f0f0;
+border-radius: 8px;
+overflow: hidden;
+box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+margin:25px;
+box-shadow: 0 0 20px rgba(52, 152, 219, 1000);}
+
+.card img{
+width: 400px;
+height: auto;
+object-fit: contain;
+margin: auto;}
+
+.card content{
+padding: 16px;
+margin-left: 10px;
+margin-right: 10px;}
+
+.card-content h3{
+font-size: 28px;
+margin-left: 10px;
+margin-right: 10px;}
+
+.card-content p{
+color:#666;
+font-size: 15px;
+line-height: 1.3;
+margin-left: 10px;
+margin-right: 10px;}
+
+.bn3637 {
+display: inline-flex;
+align-items: center;
+justify-content: center;
+padding: 0.7rem 2rem;
+font-family: "Poppins", sans-serif;
+font-weight: 700;
+font-size: 18px;
+text-align: center;
+text-decoration: none;
+color: #fff;
+border: 0.3rem solid transparent;
+border-radius: 1rem;}
+
+.bn37 {
+border-color: black;
+background-color: #fff;
+color: #000;
+transition: transform 0.2s cubic-bezier(0.235, 0, 0.05, 0.95);
+margin: 16px;}
+
+.bn37:hover {
+transform: perspective(1px) scale3d(1.044, 1.044, 1) translateZ(0) !important;
+background-color: yellow;
+border-color: red;
+color: blue;
+text-decoration: Underline;
+transition: 0.5;
+text-shadow: 1px 1px 1px white;}
+
+.logo { 
+width: 65px;
+cursor: pointer;
+margin: 100 30px 0px 70px;
+background: transparent;
+filter:drop-shadow(0px 0px 6px
+rgba(255, 213, 2, 5));}
+
+.bar {
+padding: 20px 0;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+background: linear-gradient(rgba(66, 12, 12, 1), rgba(176, 81, 81, 0.5));
+z-index: 2; /* Ensures the nav bar is above the video */
+position: relative;}
+
+.bar ul li a {
+background-color: #FFFFFF; 
+padding: 8px;
+border-radius: 10px;
+font-family: Bahnschrift SemiBold;
+font-size: 17px;
+background: linear-gradient(rgba(173, 2, 2, 1), rgba(264, 2, 2, 0.5));
+filter:drop-shadow(0px 0px 3px
+rgba(255, 213, 2, 5));}
+
+.bar ul li a:hover {
+transition: 0.3s;
+border-radius: 40% 40% 0% 0%;}
+
+.dropdown-content {
+display: none;
+position: absolute;
+min-width: 100px;
+box-shadow: rgba(0, 0, 0, 0.2);
+padding: 10px;
+border-radius: 10px;
+font-family: Bahnschrift SemiBold;
+background: linear-gradient(rgba(150, 10, 10, 1), rgba(200, 0, 0, 0.5));
+box-shadow: 0 0 10px rgba(255, 213, 2, 1);}
+
+nav ul li a {
+text-decoration: underline;
+color: #fff;
+font-weight: bold;
+font-size: 1.2em;
+display: block;
+padding: 8px;
+border-radius: 5px;}
+
+.dropdown:hover 
+.dropdown-content {
+display: block;}
+
+.bar ul li {
+font-family: Bahnschrift SemiBold;
+display: inline-block;
+margin: 15px;
+position: relative;}
+
+.line::after {
+content: "";
+position: absolute;
+background-color: White ;
+height: 3px;
+width: 0;
+left: 0;
+bottom: -10px;
+transition: 0.3s;}
+
+.line:hover::after {
+width: 100%;
+transition: 0.3s;}
+
+.bar ul li a {
+text-decoration: none; 
+color: Yellow;}
+
+.Pee2 {
+color: white;
+text-shadow: 3px 3px #023988;
+font-size: 17px;
+display:flex;
+flex-direction: row;}
+
+a {
+background: transparent;
+color: #fff;
+font-weight: bold;
+font-size: 1.2em;
+display: block;
+padding: 0px;}
+
+p {
+background: transparent;
+font-size: 30px;
+text-shadow: 1px 1px #3498DB;
+align: center;
+padding: 14px;}
+
+ul {
+background: transparent;
+list-style: none;
+padding: 0;
+display: flex;
+align-items: center;}
+
+ul li {
+background: transparent;
+margin: 0 15px;
+position: relative;}
