@@ -263,8 +263,7 @@ display: flex;
 flex-direction: row;
 bottom: -2020px;
 left: 30px;
-background: transparent;
-position: absolute;}
+background: transparent;}
 
 .social-icon {
 filter: grayscale(100%);
