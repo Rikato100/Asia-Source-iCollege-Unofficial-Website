@@ -1,12 +1,8 @@
-* {margin: 0;
-padding: 0;
-background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3));
-background-size: 100%;
-background-attachment: fixed;
-background-fit: cover;
-background-repeat: no-repeat;
+* {
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
 font-family: Bahnschrift SemiBold;}
-
 body {
 background-color:#860405;
 background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('Home Media/uni.jpg');
