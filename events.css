@@ -259,7 +259,7 @@ width: 100%;
 max-width: 100px;
 display: flex;
 flex-direction: row;
-bottom: -6075px;
+bottom: 0px;
 left: 30px;
 background: transparent;
 position: absolute;}
@@ -268,7 +268,6 @@ position: absolute;}
 filter: grayscale(100%);
 transition: filter 0.3s ease, transform 0.3s ease;
 object-fit: contain;
-display: flex;
 width: 50px;
 height: 50px;
 border-radius: 15px;
