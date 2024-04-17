@@ -259,7 +259,7 @@ width: 100%;
 max-width: 100px;
 display: flex;
 flex-direction: row;
-bottom: -1140px;
+bottom: 0px;
 left: 30px;
 background: transparent;
 position: absolute;}
@@ -301,8 +301,7 @@ padding-top: 10px;
 background: transparent;}
 
 .school-info {
-justify-content: flex-start; 
-}
+justify-content: flex-start;}
 
 .text-container {
 display: flex;
