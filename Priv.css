@@ -301,7 +301,8 @@ padding-top: 10px;
 background: transparent;}
 
 .school-info {
-justify-content: flex-start;}
+justify-content: flex-start; 
+}
 
 .text-container {
 display: flex;
@@ -359,8 +360,7 @@ border: 0.3rem solid White;}
 opacity: 1;
 transform: scale(1.1);
 color: rgba(63, 19, 17, 1);
-background-color: Yellow;
-}
+background-color: Yellow;}
 
 .cover {
 display: none;}
