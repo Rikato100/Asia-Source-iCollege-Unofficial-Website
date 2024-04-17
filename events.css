@@ -19,12 +19,10 @@ margin: 100 30px 0px 70px;
 background: transparent;
 filter:drop-shadow(0px 0px 6px
 rgba(255, 213, 2, 5));
-transition: filter 0.3s ease, transform 0.3s ease;
-}
+transition: filter 0.3s ease, transform 0.3s ease;}
 
 .logo:hover {
-transform: scale(1.1);
-}
+transform: scale(1.1);}
 
 .bar {
 padding: 20px 0;
@@ -261,14 +259,14 @@ background: transparent;}
     max-width: 100px;
     display: flex;
     flex-direction: row;
-    bottom: -6175px;
+    bottom: 0px;
     left: 30px;
     background: transparent;
     position: absolute;
 }
 
 .social-icon {
-    filter: grayscale(100%);
+filter: grayscale(100%);
     transition: filter 0.3s ease, transform 0.3s ease;
     object-fit: contain;
 	display: flex;
