@@ -259,7 +259,7 @@ width: 100%;
 max-width: 100px;
 display: flex;
 flex-direction: row;
-bottom: -1140px;
+bottom: -1030px;
 left: 30px;
 background: transparent;
 position: absolute;}
@@ -270,7 +270,6 @@ transition: filter 0.3s ease, transform 0.3s ease;
 object-fit: contain;
 width: 50px;
 height: 50px;
-bottom: 0px;
 border-radius: 15px;
 background-color: white;
 border: 0.3rem solid transparent;}
