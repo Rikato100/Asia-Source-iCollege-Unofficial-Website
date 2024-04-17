@@ -261,9 +261,10 @@ width: 100%;
 max-width: 100px;
 display: flex;
 flex-direction: row;
-bottom: 0px;
+bottom: -6190px;
 left: 30px;
-background: transparent;}
+background: transparent;
+position: absolute;}
 
 .social-icon {
 filter: grayscale(100%);
