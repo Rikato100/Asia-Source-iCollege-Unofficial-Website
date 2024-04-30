@@ -261,7 +261,7 @@ width: 100%;
 max-width: 100px;
 display: flex;
 flex-direction: row;
-bottom: 1%;
+bottom: -6175px;
 left: 30px;
 background: transparent;
 position: absolute;}
@@ -434,3 +434,8 @@ color: blue;
 text-decoration: Underline;
 transition: 0.5;
 text-shadow: 1px 1px 1px white;}
+
+
+
+
+
