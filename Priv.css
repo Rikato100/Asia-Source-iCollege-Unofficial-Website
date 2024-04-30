@@ -259,7 +259,7 @@ width: 100%;
 max-width: 100px;
 display: flex;
 flex-direction: row;
-bottom: -100px;
+bottom: -1000px;
 left: 30px;
 background: transparent;
 position: absolute;}
