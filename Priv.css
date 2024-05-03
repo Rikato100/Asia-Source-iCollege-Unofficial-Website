@@ -125,7 +125,7 @@ p {
 background: transparent;
 font-size: 30px;
 text-shadow: 1px 1px #3498DB;
-align: center;
+align: justify;
 padding: 14px;}}
 
 ul {
@@ -259,7 +259,7 @@ width: 100%;
 max-width: 100px;
 display: flex;
 flex-direction: row;
-bottom: -900px;
+bottom: -950px;
 left: 30px;
 background: transparent;
 position: absolute;}
