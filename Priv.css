@@ -125,7 +125,7 @@ p {
 background: transparent;
 font-size: 30px;
 text-shadow: 1px 1px #3498DB;
-align: justify;
+text-align: justify;
 padding: 14px;}}
 
 ul {
