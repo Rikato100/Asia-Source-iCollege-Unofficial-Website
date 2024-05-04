@@ -259,7 +259,7 @@ width: 100%;
 max-width: 100px;
 display: flex;
 flex-direction: row;
-bottom: -950px;
+bottom: 0px;
 left: 30px;
 background: transparent;
 position: absolute;}
@@ -360,8 +360,7 @@ border: 0.3rem solid White;}
 opacity: 1;
 transform: scale(1.1);
 color: rgba(63, 19, 17, 1);
-background-color: Yellow;
-}
+background-color: Yellow;}
 
 .cover {
 display: none;}
