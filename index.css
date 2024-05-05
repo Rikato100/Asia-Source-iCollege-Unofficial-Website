@@ -632,6 +632,79 @@ margin-left: 30px;
 .branch p {
 text-shadow: 1px 1px blue;}
 
+.two-color-box {
+  background: linear-gradient(to right, #3F1210 50%, #001C3F 50%);
+  padding: 20px;
+  color: white;
+  display: flex;
+  margin: 0 10%;
+  border-radius: 10px;
+}
+
+.tag,
+.pas {
+  font-family: 'Oswald';
+  width: 50%;
+  background: Transparent;}
+
+.pas {
+text-align: left;
+margin-left: 47px;
+background: Transparent;}
+
+.pass {
+margin-left: 23px;
+}
+
+@media screen and (max-width: 768px) {
+  .two-color-box {
+    flex-direction: column;
+  }
+}
+
+.btn1 {
+  background-color: gray;
+  color: dark red;
+  padding: 1% 4%;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn2 {
+  background-color: gray;
+  padding: 1% 4%;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn3 {
+  background-color: gray;
+  padding: 1% 4%;
+  border-radius: 5px;
+  text-decoration: none;}
+
+.btn4 {
+  background-color: gray;	
+  padding: 1% 4%;
+  border-radius: 5px;
+  text-decoration: none;}
+
+.btn1:hover {
+  background-color: #FFA900;
+}
+
+.btn2:hover {
+  background-color: #FFA900;
+}
+
+.btn3:hover {
+  background-color: #FFA900;}
+
+.btn4:hover {
+  background-color: #FFA900;
+}
+
+
 
 
 
