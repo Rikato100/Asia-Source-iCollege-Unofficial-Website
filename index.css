@@ -595,7 +595,7 @@ background-color: Yellow;
 }
 
 .partners {
-background-color: white;
+background-color: rgba(0, 0, 0, 0.5);
 text-align: center;
 }
 
