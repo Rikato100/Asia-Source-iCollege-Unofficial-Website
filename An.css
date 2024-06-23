@@ -1,0 +1,255 @@
+body {
+margin: 0;
+padding: 0;
+width: 100%;
+height: 100%;
+background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('Home Media/W2.png');
+background-size: 100%;
+background-attachment: fixed;
+background-repeat: no-repeat;
+}
+
+* {
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-family: Bahnschrift SemiBold;}
+
+
+.container {
+display: flex;
+text-align: justify;
+align-items: center;
+max-width: 1200px;
+}
+
+nav ul {
+list-style: none;
+display: flex;
+gap: 0px;
+margin: 0;
+padding: 0;
+}
+
+nav ul li {
+margin: 0;
+}
+
+nav ul li a {
+color: white;
+text-decoration: none;
+padding: 5px 10px;
+transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+background-color: #002b80;
+}
+
+.main-container1 {
+display: flex;
+flex: 3;
+flex-direction: column;
+max-width: 1200px;
+margin: 20px auto;
+padding: 0 20px;
+gap: 20px;
+}
+
+.main-container {
+display: flex;
+max-width: 1200px;
+margin: 20px auto;
+padding: 0 20px;
+gap: 20px;
+}
+
+main {
+flex: 3;
+}
+
+main .announcement {
+background-color: rgba(66, 12, 12, 0.5);
+border: 1px solid #ddd;
+border-radius: 8px;
+padding: 20px;
+margin-bottom: 20px;
+box-shadow: 0 2px 4px rgba(112, 156, 8, 0.1);
+}
+
+main .announcement h2 {
+margin-top: 0;
+color:  yellow  ;
+}
+
+main .announcement .date {
+font-size: 2em;
+color: White;
+margin-bottom: 10px;
+}
+
+main .announcement p {
+color: White;
+}
+
+aside {
+flex: 5;
+background-color: rgba(66, 12, 12, 0.5);
+border: 1px solid #ddd;
+border-radius: 8px;
+padding: 20px;
+box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+aside h2 {
+margin-top: 0;
+color: yellow;
+}
+
+aside ul {
+list-style: none;
+padding: 0;
+display: flex;
+flex: 3;
+flex-direction: column;
+}
+
+aside ul li {
+margin-bottom: 10px;
+color: White;
+}
+
+.cover {
+display: none;}
+
+.logo { 
+width: 65px;
+cursor: pointer;
+margin: 100 30px 0px 70px;
+background: transparent;
+filter:drop-shadow(0px 0px 6px
+rgba(255, 213, 2, 5));
+transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.logo:hover {
+transform: scale(1.1);
+}
+
+.bar {
+padding: 20px 0;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+background: linear-gradient(rgba(66, 12, 12, 1), rgba(176, 81, 81, 0.5));
+z-index: 2; /* Ensures the nav bar is above the video */
+position: relative;}
+
+.bar ul li a {
+background-color: #FFFFFF; 
+padding: 8px;
+border-radius: 10px;
+font-family: Bahnschrift SemiBold;
+font-size: 17px;
+background: linear-gradient(rgba(173, 2, 2, 1), rgba(264, 2, 2, 0.5));
+filter:drop-shadow(0px 0px 3px
+rgba(255, 213, 2, 5));}
+
+.bar ul li a:hover {
+transition: 0.3s;
+border-radius: 40% 40% 0% 0%;}
+
+.dropdown-content {
+display: none;
+position: absolute;
+min-width: 100px;
+box-shadow: rgba(0, 0, 0, 0.2);
+padding: 10px;
+border-radius: 10px;
+font-family: Bahnschrift SemiBold;
+background: linear-gradient(rgba(150, 10, 10, 1), rgba(200, 0, 0, 0.5));
+box-shadow: 0 0 10px rgba(255, 213, 2, 1);}
+
+nav ul li a {
+text-decoration: underline;
+color: #fff;
+font-weight: bold;
+font-size: 1.2em;
+display: block;
+padding: 8px;
+border-radius: 5px;}
+
+.dropdown:hover 
+.dropdown-content {
+display: block;}
+
+.bar ul li {
+font-family: Bahnschrift SemiBold;
+display: inline-block;
+margin: 15px;
+position: relative;}
+
+.line::after {
+content: "";
+position: absolute;
+background-color: White ;
+height: 3px;
+width: 0;
+left: 0;
+bottom: -10px;
+transition: 0.3s;}
+
+.line:hover::after {
+width: 100%;
+transition: 0.3s;}
+
+.bar ul li a {
+text-decoration: none; 
+color: Yellow;}
+
+.Pee2 {
+color: white;
+text-shadow: 3px 3px #023988;
+font-size: 17px;
+margin: auto;
+padding: 14px;
+text-align: center;
+display:flex;
+flex-direction: row;}
+
+p {
+background: transparent;
+font-size: 20px;
+text-shadow: 1px 1px #3498DB;
+text-align: justify;
+margin: 20px;
+padding: 14px;}
+
+a {
+background: transparent;
+color: #fff;
+font-weight: bold;
+font-size: 1.2em;
+display: block;
+padding: 0px;}
+
+ul {
+background: transparent;
+list-style: none;
+padding: 0;
+display: flex;
+align-items: center;}
+
+ul li {
+background: transparent;
+margin: 0 15px;
+position: relative;}
+
+.highlight1 {
+    position: relative;
+    top: 100%;
+    height: 100%;
+    width: 100%;
+    background-size: cover;}
+
+    
